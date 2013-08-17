@@ -1,0 +1,36 @@
+{
+    "jshint": {
+        "options": {
+        	"strict": true,
+            "browser": true,
+            "devel": true,
+            "node": true
+        },
+        "global": [
+            "window","console", "gapi", "define", "ENTER_KEY"
+        ]
+    },
+    
+	"formatter": {
+    	"js": {
+			"indent_size": 1,
+			"indent_char": "\t"
+		}
+	},
+
+	"ui": {
+		"font":"Ubuntu Mono",
+	    "font_size":14,
+	    "navigator": true
+	},
+
+	search: {
+		exclude: [
+			'Gruntfile.js'
+		],
+		deemphasize: [
+			'node_modules/**',
+			'bower_components/**'
+		]
+	}	
+}
