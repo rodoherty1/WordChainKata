@@ -1,7 +1,7 @@
 Word Chain Kata
 ===============
 
-This is my version of the code which Miles and I (let's be honest, it was Miles!) had a go at on Wednesday 14th August 2013.
+This is my version of the code which Miles and I had a go at on Wednesday 14th August 2013.
 
 I refactored the code so that I could add some Jasmine Tests.
 
